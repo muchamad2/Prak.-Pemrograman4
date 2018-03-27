@@ -32,6 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="BangunDatar.h" />
+		<Unit filename="Lingkaran.cpp" />
+		<Unit filename="Lingkaran.h" />
+		<Unit filename="Persegi.cpp" />
+		<Unit filename="Persegi.h" />
+		<Unit filename="PersegiPanjang.cpp" />
+		<Unit filename="PersegiPanjang.h" />
+		<Unit filename="Segitiga.cpp" />
+		<Unit filename="Segitiga.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
