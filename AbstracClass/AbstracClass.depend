@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1522126173 source:e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\main.cpp
+	<iostream>
+	"Lingkaran.h"
+
+1522128253 source:e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\lingkaran.cpp
+	"Lingkaran.h"
+
+1522128598 e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\lingkaran.h
+	"BangunDatar.h"
+
+1522126882 e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\bangundatar.h
+	<iostream>
+
+1522126882 source:e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\persegi.cpp
+	"Persegi.h"
+
+1522126882 e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\persegi.h
+	"BangunDatar.h"
+
+1522128303 source:e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\persegipanjang.cpp
+	"PersegiPanjang.h"
+
+1522128345 e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\persegipanjang.h
+	"BangunDatar.h"
+
+1522126880 source:e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\segitiga.cpp
+	"Segitiga.h"
+
+1522126882 e:\academypens\kelas2\semester 4\prak. pemrograman4\prak.-pemrograman4\abstracclass\segitiga.h
+	"BangunDatar.h"
+
