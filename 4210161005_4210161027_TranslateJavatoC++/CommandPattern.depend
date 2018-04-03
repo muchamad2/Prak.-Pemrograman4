@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1522766416 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\stock.cpp
+	"Stock.h"
+
+1522765303 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\stock.h
+	<iostream>
+
+1522766444 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\buystock.cpp
+	"BuyStock.h"
+
+1522769320 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\buystock.h
+	"Order.h"
+
+1522766476 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\order.h
+	<iostream>
+	"Stock.h"
+
+1522766235 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\sellstock.cpp
+	"SellStock.h"
+
+1522766424 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\sellstock.h
+	"Order.h"
+
+1522767858 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\main.cpp
+	<iostream>
+	"Stock.h"
+	"Order.h"
+	"BuyStock.h"
+	"SellStock.h"
+	"Broker.h"
+
+1522768803 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\broker.cpp
+	"Broker.h"
+
+1522768029 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\commandpattern\broker.h
+	<iostream>
+	<vector>
+	"Order.h"
+
