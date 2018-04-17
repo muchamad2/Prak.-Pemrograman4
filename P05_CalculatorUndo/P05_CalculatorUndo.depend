@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1523937772 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\main.cpp
+	<iostream>
+	"Invoker.h"
+
+1523934553 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\operator.cpp
+	"Operator.h"
+
+1523937027 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\operator.h
+	<iostream>
+	<cstring>
+
+1523936837 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\command.cpp
+	"Command.h"
+
+1523936731 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\command.h
+	<iostream>
+	"Operator.h"
+
+1523937665 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\invoker.cpp
+	"Invoker.h"
+
+1523937651 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\p05_calculatorundo\invoker.h
+	"Command.h"
+	<iostream>
+	<vector>
+

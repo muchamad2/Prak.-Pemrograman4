@@ -3,7 +3,8 @@
 #include "Order.h"
 class SellStock:public Order{
 private:
-    Stock *reStock;
+    Stock *reStock
+    void(Stock::*method)();
 public:
     SellStock(Stock*);
     void execute();
