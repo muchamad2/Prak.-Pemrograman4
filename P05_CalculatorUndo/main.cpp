@@ -14,5 +14,7 @@ int main()
     cout<<opp->getCurrent();
     user->Undo();
     cout<<opp->getCurrent();
+    user->Undo();
+    cout<<opp->getCurrent();
     return 0;
 }

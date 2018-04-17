@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="Command.cpp" />
 		<Unit filename="Command.h" />
+		<Unit filename="Invoker.cpp" />
+		<Unit filename="Invoker.h" />
 		<Unit filename="Operator.cpp" />
 		<Unit filename="Operator.h" />
 		<Unit filename="main.cpp" />

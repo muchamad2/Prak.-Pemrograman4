@@ -12,5 +12,6 @@ void Invoker::Undo(){
     if(this->current >= 0){
         this->commands[current]->unExecute();
         this->current--;
+
     }
 }
