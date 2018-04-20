@@ -16,7 +16,6 @@ int main()
     kembali:
     do
     {
-
         system("CLS");
         cout<<"This is a Undoable Sudoku Game\n X = row , Y = coloum\nfirst X = 0, first Y = 0\n";
         sudoku.showOpenNumber();
@@ -54,11 +53,17 @@ int main()
             status = true;
             save.resetExecute();
         }
+        if(sudoku.finishCheck())
+           break;
     }
-    while(answer != 4 || !sudoku.finishCheck());
-    cout<<"\n Game has been finished \n 1. Quit \n 2. Restart";
+    while(answer != 4);
+    cout<<"\n Game has been finished \n 1. Quit \n 2. Restart\n";
     cin>>answer;
-    if(answer == 1)
+    if(answer == 2){
         goto kembali;
+        sudoku.restart(&sudoku);
+        save.resetExecute();
+    }
+
     return 0;
 }
