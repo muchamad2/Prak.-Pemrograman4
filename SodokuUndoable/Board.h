@@ -11,11 +11,13 @@ public:
     Board();
     void FillBoard(int x,int y,char num);
     bool checkBoard(int x,int y,char num);
+    bool finishCheck();
     void removeCell(int x,int y);
     void restart(Board*);
     void showOpenNumber();
 private:
-    bool UnassignedLocation(int x,int y,char num);
+    bool FindUnssignedLocation();
+    bool Unassigned(int x,int y,char num);
     bool UsedInRow(int X,char num);
     bool UsedInCol(int Y,char num);
     bool UsedInBox(int boxStartX,int boxStartY,char num);

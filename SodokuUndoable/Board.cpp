@@ -30,7 +30,15 @@ void Board::FillBoard(int x,int y,char num)
 }
 bool Board::checkBoard(int x,int y,char num)
 {
-    return !UsedInCol(y,num)&&!UsedInBox(x-x%3,y-y%3,num)&&!UsedInRow(x,num)&&UnassignedLocation(x,y,num);
+    if(!UsedInCol(y,num)&&!UsedInBox(x-x%3,y-y%3,num)&&!UsedInRow(x,num)&&Unassigned(x,y,num))
+        return true;
+    else
+        return false;
+}
+bool Board::finishCheck(){
+    if(!FindUnssignedLocation())
+        return true;
+    return false;
 }
 void Board::removeCell(int x,int y)
 {
@@ -86,9 +94,19 @@ bool Board::UsedInRow(int x,char num)
     }
     return false;
 }
-bool Board::UnassignedLocation(int x,int y,char num)
+bool Board::Unassigned(int x,int y,char num)
 {
-    if(grid[x][y] != num)
+    if(grid[x][y] == 'x')
         return true;
+    return false;
+}
+bool Board::FindUnssignedLocation(){
+    int x, y;
+    for(x = 0;x<N;x++){
+        for(y=0;y<N;y++){
+            if(grid[x][y] == 'x')
+                return true;
+        }
+    }
     return false;
 }
