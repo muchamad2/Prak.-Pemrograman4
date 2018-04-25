@@ -13,3 +13,37 @@
 	<iostream>
 	"Board_Subject.h"
 
+1524678591 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\main.cpp
+	<iostream>
+	"Board.h"
+	"SecondPlayer.h"
+	"FirstPlayer.h"
+
+1524678035 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.h
+	<iostream>
+	<vector>
+	"Player.h"
+	<cstdlib>
+
+1524677716 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\player.h
+	"Board.h"
+	<cstring>
+	<iostream>
+
+1524678756 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.cpp
+	"Board.h"
+
+1524678472 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\firstplayer.cpp
+	"FirstPlayer.h"
+
+1524677777 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\firstplayer.h
+	"Player.h"
+	"Board.h"
+
+1524678491 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\secondplayer.cpp
+	"SecondPlayer.h"
+
+1524677777 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\secondplayer.h
+	"Player.h"
+	"Board.h"
+

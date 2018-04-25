@@ -32,10 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Board_Subject.cpp" />
-		<Unit filename="Board_Subject.h" />
+		<Unit filename="Board.cpp" />
+		<Unit filename="Board.h" />
+		<Unit filename="FirstPlayer.cpp" />
 		<Unit filename="FirstPlayer.h" />
-		<Unit filename="Player_Observer.h" />
+		<Unit filename="Player.h" />
+		<Unit filename="SecondPlayer.cpp" />
+		<Unit filename="SecondPlayer.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
