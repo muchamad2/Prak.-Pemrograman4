@@ -13,13 +13,12 @@
 	<iostream>
 	"Board_Subject.h"
 
-1524678591 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\main.cpp
+1527215551 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\main.cpp
 	<iostream>
 	"Board.h"
-	"SecondPlayer.h"
-	"FirstPlayer.h"
+	"PlayerFactory.h"
 
-1524678035 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.h
+1525843809 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.h
 	<iostream>
 	<vector>
 	"Player.h"
@@ -46,4 +45,10 @@
 1524677777 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\secondplayer.h
 	"Player.h"
 	"Board.h"
+
+1527215588 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\playerfactory.h
+	"Player.h"
+	"Board.h"
+	"FirstPlayer.h"
+	"SecondPlayer.h"
 

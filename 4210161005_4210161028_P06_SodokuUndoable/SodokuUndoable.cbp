@@ -35,6 +35,8 @@
 		<Unit filename="Board.cpp" />
 		<Unit filename="Board.h" />
 		<Unit filename="Command.h" />
+		<Unit filename="CommandFactory.cpp" />
+		<Unit filename="CommandFactory.h" />
 		<Unit filename="DoCommand.cpp" />
 		<Unit filename="DoCommand.h" />
 		<Unit filename="FillCommand.cpp" />

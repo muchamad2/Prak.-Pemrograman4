@@ -37,6 +37,8 @@
 		<Unit filename="FirstPlayer.cpp" />
 		<Unit filename="FirstPlayer.h" />
 		<Unit filename="Player.h" />
+		<Unit filename="PlayerFactory.cpp" />
+		<Unit filename="PlayerFactory.h" />
 		<Unit filename="SecondPlayer.cpp" />
 		<Unit filename="SecondPlayer.h" />
 		<Unit filename="main.cpp" />

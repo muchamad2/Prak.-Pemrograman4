@@ -1,17 +1,16 @@
 #include <iostream>
 #include "Board.h"
-#include "SecondPlayer.h"
-#include "FirstPlayer.h"
+//#include "SecondPlayer.h"
+//#include "FirstPlayer.h"
+#include "PlayerFactory.h"
 using namespace std;
 
 int main()
 {
     int chosen,turn=1;
     Board boardGame;
-    FirstPlayer one('X',&boardGame);
-    SecondPlayer two('O',&boardGame);
-    boardGame.attach(&one);
-    boardGame.attach(&two);
+    boardGame.attach(Factory::createPlayer('X',&boardGame));
+    boardGame.attach(Factory::createPlayer('O',&boardGame));
     boardGame.showBoard();
     do{
         turn = (turn%2)?1:2;

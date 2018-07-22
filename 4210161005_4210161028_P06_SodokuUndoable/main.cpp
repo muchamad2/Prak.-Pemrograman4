@@ -1,8 +1,9 @@
 #include <iostream>
 #include <stdlib.h>
 #include "Board.h"
-#include "FillCommand.h"
+//#include "FillCommand.h"
 #include "DoCommand.h"
+#include "CommandFactory.h"
 using namespace std;
 
 int main()
@@ -11,7 +12,7 @@ int main()
     char number;
     bool status = true;
     Board sudoku;
-    FillCommad *cmd;
+    //FillCommad *cmd;
     DoCommad save;
     kembali:
     do
@@ -33,9 +34,8 @@ int main()
             cin>>y;
             cout<<"Masukkan nomer yang anda inginkan : ";
             cin>>number;
-            cmd = new FillCommad(&sudoku,x,y,number);
             if(sudoku.checkBoard(x,y,number)){
-                save.add(cmd);
+                save.add(Factory::createCommand(&sudoku,x,y,number));
                 save.execute();
                 status = true;
             }
