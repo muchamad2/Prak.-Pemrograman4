@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1524196852 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Board.h"
+	"FillCommand.h"
+	"DoCommand.h"
+
+1524196872 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\board.cpp
+	"Board.h"
+
+1524196732 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\board.h
+	<iostream>
+
+1524194136 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\fillcommand.cpp
+	"FillCommand.h"
+
+1524194134 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\fillcommand.h
+	"Command.h"
+
+1524193093 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\command.h
+	<iostream>
+	"Board.h"
+
+1524194581 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\docommand.cpp
+	"DoCommand.h"
+
+1524194063 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\sodokuundoable\docommand.h
+	<stack>
+	"Command.h"
+	<queue>
+
+1524196872 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\board.cpp
+	"Board.h"
+
+1524196732 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\board.h
+	<iostream>
+
+1524194581 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\docommand.cpp
+	"DoCommand.h"
+
+1524194063 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\docommand.h
+	<stack>
+	"Command.h"
+	<queue>
+
+1524193093 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\command.h
+	<iostream>
+	"Board.h"
+
+1524194136 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\fillcommand.cpp
+	"FillCommand.h"
+
+1524194134 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\fillcommand.h
+	"Command.h"
+
+1527216217 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Board.h"
+	"DoCommand.h"
+	"CommandFactory.h"
+
+1527216179 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161028_p06_sodokuundoable\commandfactory.h
+	"Board.h"
+	"FillCommand.h"
+

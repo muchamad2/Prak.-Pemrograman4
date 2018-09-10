@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1514140574 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\tictactoe_observer\main.cpp
+	<iostream>
+
+1524544849 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\tictactoe_observer\board_subject.cpp
+	"Board_Subject.h"
+
+1524547405 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\tictactoe_observer\board_subject.h
+	<vector>
+	"Player_Observer.h"
+
+1524547410 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\tictactoe_observer\player_observer.h
+	<iostream>
+	"Board_Subject.h"
+
+1527215551 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\main.cpp
+	<iostream>
+	"Board.h"
+	"PlayerFactory.h"
+
+1525843809 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.h
+	<iostream>
+	<vector>
+	"Player.h"
+	<cstdlib>
+
+1524677716 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\player.h
+	"Board.h"
+	<cstring>
+	<iostream>
+
+1524678756 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\board.cpp
+	"Board.h"
+
+1524678472 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\firstplayer.cpp
+	"FirstPlayer.h"
+
+1524677777 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\firstplayer.h
+	"Player.h"
+	"Board.h"
+
+1524678491 source:e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\secondplayer.cpp
+	"SecondPlayer.h"
+
+1524677777 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\secondplayer.h
+	"Player.h"
+	"Board.h"
+
+1527215588 e:\academypens\kelas2\semester 4\bu.dea_prak. pemrograman4\prak.-pemrograman4\4210161005_4210161004_tictactoe_observer\playerfactory.h
+	"Player.h"
+	"Board.h"
+	"FirstPlayer.h"
+	"SecondPlayer.h"
+
